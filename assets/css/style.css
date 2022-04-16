@@ -22,6 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 .blue-background {
     background-color: #161827;
     width: 100%;
+    position: absolute;
 }
 /*logo*/
 
@@ -31,7 +32,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 10px;
     text-decoration: none;
     color: #F0EFE6;
-
 }
 
 #logo:hover {
@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5, h6 {
     border-top: 5px solid #F0EFE6;
     border-bottom: 5px solid #F0EFE6;
 }
+
 
 /* Hero Image */
 #hero-outer {
