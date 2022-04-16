@@ -24,6 +24,12 @@ h1, h2, h3, h4, h5, h6 {
 #logo {
     float: left;
     font-size: 300%;
+    margin-left: 10px;
+}
+
+#logo:hover {
+    border: 10px solid #F0EFE6;
+    border-radius: 25px;
 }
 
 #nav-bar {
@@ -31,10 +37,19 @@ h1, h2, h3, h4, h5, h6 {
     float: right;
 }
 
+#nav-bar, #logo {
+    line-height: 75px;
+}
+
 #nav-bar li {
     float: left;
     list-style-type: none;
     margin-right: 40px;
+}
+
+#nav-bar a:hover {
+    border: 10px solid #F0EFE6;
+    border-radius: 25px;
 }
 
 /* Header Styling */
