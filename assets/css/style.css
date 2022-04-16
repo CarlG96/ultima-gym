@@ -64,3 +64,16 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     color: #F0EFE6;
 }
+
+/* Hero Image */
+#hero-outer {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+#hero-image {
+    width: 100%;
+    height: 600px;
+    background: url(../images/treadmill-runner-medium.jpg) no-repeat center center;
+}
