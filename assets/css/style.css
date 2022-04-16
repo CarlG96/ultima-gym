@@ -22,8 +22,8 @@ h1, h2, h3, h4, h5, h6 {
 .blue-background {
     background-color: #161827;
     width: 100%;
-    
     position: fixed;
+    z-index:1;
 }
 /*logo*/
 
@@ -75,10 +75,29 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 600px;
     overflow: hidden;
+    margin-top:auto;
 }
 
 #hero-image {
     width: 100%;
     height: 600px;
     background: url(../images/treadmill-runner-medium.jpg) no-repeat center center;
+
+    z-index:2;
+}
+
+#hero-image:hover {
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* Hero Image Animation */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1)
+    }
+    to {
+        transform: scale(1.05);
+    }
 }
