@@ -48,8 +48,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #nav-bar a:hover {
-    border: 10px solid #F0EFE6;
-    border-radius: 25px;
+    border-left:  1px solid #F0EFE6;
+    border-right: 1px solid #F0EFE6;
+    border-top: 5px solid #F0EFE6;
+    border-bottom: 5px solid #F0EFE6;
 }
 
 /* Header Styling */
