@@ -11,10 +11,15 @@ body {
     font-weight: 400;   
 }
 
+/* Headings */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: Nunito, sans-serif;
     font-weight: 400;
+    letter-spacing: 2px;
 }
+
+/* Header Styling */
 
 #header-styling {
     background-color: #677E93;
