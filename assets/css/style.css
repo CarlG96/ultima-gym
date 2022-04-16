@@ -26,6 +26,17 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 300%;
 }
 
+#nav-bar {
+    font-size: 170%;
+    float: right;
+}
+
+#nav-bar li {
+    float: left;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
 /* Header Styling */
 
 #header-styling {
