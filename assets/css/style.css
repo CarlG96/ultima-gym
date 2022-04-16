@@ -19,12 +19,19 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 2px;
 }
 
+.blue-background {
+    background-color: #161827;
+    width: 100%;
+}
 /*logo*/
 
 #logo {
     float: left;
     font-size: 300%;
     margin-left: 10px;
+    text-decoration: none;
+    color: #F0EFE6;
+
 }
 
 #logo:hover {
@@ -35,10 +42,13 @@ h1, h2, h3, h4, h5, h6 {
 #nav-bar {
     font-size: 170%;
     float: right;
+    text-decoration: none;
+    color: #F0EFE6;
 }
 
 #nav-bar, #logo {
     line-height: 75px;
+    background-color: #161827;
 }
 
 #nav-bar li {
@@ -47,22 +57,15 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 40px;
 }
 
+#nav-bar a {
+    text-decoration: none;
+    color: #F0EFE6;
+}
 #nav-bar a:hover {
     border-left:  1px solid #F0EFE6;
     border-right: 1px solid #F0EFE6;
     border-top: 5px solid #F0EFE6;
     border-bottom: 5px solid #F0EFE6;
-}
-
-/* Header Styling */
-
-#header-styling {
-    background-color: #677E93;
-}
-
-#header-styling a {
-    text-decoration: none;
-    color: #F0EFE6;
 }
 
 /* Hero Image */
