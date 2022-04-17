@@ -81,6 +81,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-top:auto;
     padding-top:90px;
     position: relative;
+    
 }
 
 #hero-image {
@@ -92,6 +93,7 @@ h1, h2, h3, h4, h5, h6 {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    
 }
 
 #welcome-message, #welcome-message h2 {
@@ -134,6 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 #our-mission-section {
     height: 300px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #our-mission-text {
@@ -164,4 +167,20 @@ h1, h2, h3, h4, h5, h6 {
 .float-right-paragraph {
     width: 75%;
     margin: 0 auto;
+}
+
+/*Section Banner */
+
+.section-banner {
+    display: block;
+    width: 100%;
+    background-color: #161827;
+}
+
+.section-banner h1 {
+   color: #F0EFE6;
+   font-size: 200%;
+   text-align: center;
+   text-decoration: underline;
+   padding: 25px;
 }
