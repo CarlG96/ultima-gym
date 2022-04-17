@@ -131,15 +131,15 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
 }
 
-/* Our Mission Section Styling */
+/*Text and image section styling */
 
-#our-mission-section {
+.text-and-image-section {
     height: 300px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-#our-mission-text {
+.information-text {
     height: 100%;
     background-color:#161827;
     color: #F0EFE6;
@@ -149,14 +149,14 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 25px;
 }
 
-#our-mission-text h2 {
+.information-text h2 {
     text-align: center;
     padding-bottom: 25px;
     text-decoration: underline;
     font-size: 200%;
 }
 
-#our-mission-image {
+.image-next-to-text {
     height: 100%;
     float: right;
     width: 50%;
@@ -185,3 +185,4 @@ h1, h2, h3, h4, h5, h6 {
    text-decoration: underline;
    padding: 25px;
 }
+
