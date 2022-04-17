@@ -186,3 +186,17 @@ h1, h2, h3, h4, h5, h6 {
    padding: 25px;
 }
 
+/*Opening times table styling */
+
+table, th, td {
+    border: 1px solid #F0EFE6;
+    color: #F0EFE6;
+    background-color: #161827;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table td {
+    text-align: center;
+}
+
