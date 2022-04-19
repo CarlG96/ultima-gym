@@ -92,6 +92,7 @@ h1, h2, h3, h4, h5, h6 {
     z-index:2;
     background-size: auto;
     
+    
 
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -195,7 +196,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Opening times table styling */
-
 table, th, td {
     border: 1px solid #a6543e;
     color: white;
@@ -208,4 +208,18 @@ table td {
     text-align: center;
 }
 
+#footer-container {
+    width: 100vw;
+}
+
+#footer-container > span {
+    text-align: center;
+    margin: 0 auto;
+    padding-top:1vh;
+    padding-bottom: 1vh;
+    border: 1px solid #161827;
+    width: 100vw;
+    display: block;
+    background-color:#a6543e;
+}
 
