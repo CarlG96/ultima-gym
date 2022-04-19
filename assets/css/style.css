@@ -196,6 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*Opening times table styling */
+
 table, th, td {
     border: 1px solid #a6543e;
     color: white;
@@ -221,5 +222,6 @@ table td {
     width: 100vw;
     display: block;
     background-color:#a6543e;
+    color: white;
 }
 
