@@ -213,14 +213,13 @@ table td {
     width: 100vw;
 }
 
-#footer-container > span {
+#footer-container > div {
     text-align: center;
     margin: 0 auto;
     padding-top:1vh;
     padding-bottom: 1vh;
     border: 1px solid #161827;
     width: 100vw;
-    display: block;
     background-color:#a6543e;
     color: white;
 }
