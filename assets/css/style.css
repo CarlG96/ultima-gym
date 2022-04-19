@@ -161,6 +161,16 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 200%;
 }
 
+.float-right-icon {
+    float: right;
+    font-size: 200%;
+}
+
+.float-left-icon {
+    float:left;
+    font-size: 200%;
+}
+
 .information-text p {
     color: white;
 }
