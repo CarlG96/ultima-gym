@@ -142,14 +142,14 @@ h6 {
 /*Text and image section styling */
 
 .text-and-image-section {
-    height: 50vh;
-    margin-top: 50px;
+    height: 30vh;
+    margin-top: 25px;
     margin-bottom: 50px;
     
 }
 
 .information-text-left {
-    height: 50vh;
+    height: 30vh;
     background-color: #161827;
     color: #a6543e;
     width: 50%;
@@ -171,7 +171,7 @@ h6 {
 }
 
 .information-text-right {
-    height: 50vh;
+    height: 30vh;
     background-color: #161827;
     color: #a6543e;
     width: 50%;
@@ -203,7 +203,7 @@ h6 {
 }
 
 .image-next-to-text-right {
-    height: 50vh;
+    height: 30vh;
     float: right;
     width: 50%;
     background-color: white;
@@ -211,7 +211,7 @@ h6 {
 }
 
 .image-next-to-text-left {
-    height: 50vh;
+    height: 30vh;
     float: left;
     width: 50%;
     background-color: white;
