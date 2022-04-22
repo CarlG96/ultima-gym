@@ -8,13 +8,18 @@
 
 body {
     font-family: PT Sans, sans-serif;
-    font-weight: 400; 
+    font-weight: 400;
     background-color: #8d8e86;
 }
 
 /* Headings */
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Nunito, sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
@@ -25,8 +30,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 90px;
     position: fixed;
-    z-index:1;
+    z-index: 1;
 }
+
 /*logo*/
 
 #logo {
@@ -38,12 +44,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #logo:hover {
-    border-left:  1px solid white;
-    border-right: 1px solid white;
-    border-top: 5px solid white;
-    border-bottom: 5px solid white;
+    color:#8d8e86;
 }
-
 #nav-bar {
     font-size: 170%;
     float: right;
@@ -51,7 +53,8 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
-#nav-bar, #logo {
+#nav-bar,
+#logo {
     line-height: 75px;
     background-color: #a6543e;
 }
@@ -66,11 +69,9 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     color: white;
 }
+
 #nav-bar a:hover {
-    border-left:  1px solid white;
-    border-right: 1px solid white;
-    border-top: 5px solid white;
-    border-bottom: 5px solid white;
+    color: #8d8e86;
 }
 
 
@@ -79,31 +80,32 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     height: 600px;
     overflow: hidden;
-    margin-top:auto;
-    padding-top:90px;
+    margin-top: auto;
+    padding-top: 90px;
     position: relative;
-    
+
 }
 
 #hero-image {
     width: 100%;
     height: 600px;
     background: url(../images/treadmill-runner-medium.jpg) no-repeat center center;
-    z-index:2;
+    z-index: 2;
     background-size: auto;
-    
-    
+
+
 
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    
+
 }
 
-#welcome-message, #welcome-message h2 {
+#welcome-message,
+#welcome-message h2 {
     color: white;
     padding: 10px;
-    text-align:end;
+    text-align: end;
 }
 
 /* Hero Image Animation */
@@ -111,6 +113,7 @@ h1, h2, h3, h4, h5, h6 {
     from {
         transform: scale(1)
     }
+
     to {
         transform: scale(1.05);
     }
@@ -124,10 +127,10 @@ h1, h2, h3, h4, h5, h6 {
     width: 300px;
     height: 200px;
 
-    padding-top:40px;
-    padding-left:10px;
+    padding-top: 40px;
+    padding-left: 10px;
     background-color: #161827;
-    
+
     border-radius: 30%;
 
     bottom: 50%;
@@ -145,10 +148,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .information-text {
     height: 100%;
-    background-color:#161827;
+    background-color: #161827;
     color: #a6543e;
     width: 50%;
-    float: left;  
+    float: left;
     text-align: center;
     padding-bottom: 25px;
 }
@@ -167,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .float-left-icon {
-    float:left;
+    float: left;
     font-size: 200%;
 }
 
@@ -198,16 +201,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-banner h1 {
-   color: #a6543e;
-   font-size: 200%;
-   text-align: center;
-   text-decoration: underline;
-   padding: 25px;
+    color: #a6543e;
+    font-size: 200%;
+    text-align: center;
+    text-decoration: underline;
+    padding: 25px;
 }
 
 /*Opening times table styling */
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid #a6543e;
     color: white;
     background-color: #161827;
@@ -223,14 +228,14 @@ table td {
     width: 100vw;
 }
 
-#footer-container > div {
+#footer-container>div {
     text-align: center;
     margin: 0 auto;
-    padding-top:1vh;
+    padding-top: 1vh;
     padding-bottom: 1vh;
     border: 1px solid #161827;
     width: 100vw;
-    background-color:#a6543e;
+    background-color: #a6543e;
     color: white;
 }
 
@@ -238,3 +243,6 @@ table td {
     color: inherit;
 }
 
+#footer-container a:hover {
+    color: #8d8e86;
+}
