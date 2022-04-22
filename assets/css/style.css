@@ -44,8 +44,9 @@ h6 {
 }
 
 #logo:hover {
-    color:#8d8e86;
+    color: #8d8e86;
 }
+
 #nav-bar {
     font-size: 170%;
     float: right;
@@ -141,12 +142,12 @@ h6 {
 /*Text and image section styling */
 
 .text-and-image-section {
-    height: 300px;
+    height: 50vh;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-.information-text {
+.information-text-left {
     height: 100%;
     background-color: #161827;
     color: #a6543e;
@@ -156,12 +157,38 @@ h6 {
     padding-bottom: 25px;
 }
 
-.information-text h2 {
+.information-text-left h2 {
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
     text-decoration: underline;
     font-size: 200%;
+}
+
+.information-text-left p {
+    color: white;
+}
+
+.information-text-right {
+    height: 100%;
+    background-color: #161827;
+    color: #a6543e;
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.information-text-right h2 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-decoration: underline;
+    font-size: 200%;
+}
+
+.information-text-right p {
+    color: white;
 }
 
 .float-right-icon {
@@ -174,17 +201,23 @@ h6 {
     font-size: 200%;
 }
 
-.information-text p {
-    color: white;
-}
-
-.image-next-to-text {
+.image-next-to-text-right {
     height: 100%;
     float: right;
     width: 50%;
     background-color: white;
     padding-bottom: 25px;
 }
+
+.image-next-to-text-left {
+    height: 100%;
+    float: left;
+    width: 50%;
+    background-color: white;
+    padding-bottom: 25px;
+}
+
+
 
 /* Paragraph class rules */
 .float-center-paragraph {
@@ -239,6 +272,12 @@ table td {
     color: white;
 }
 
+#footer-container summary {
+    font-family: Nunito, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size:150%;
+}
 #footer-container a {
     color: inherit;
 }
