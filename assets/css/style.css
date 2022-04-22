@@ -9,7 +9,7 @@
 body {
     font-family: PT Sans, sans-serif;
     font-weight: 400;
-    background-color: #8d8e86;
+    background-color: #ab9a99;
 }
 
 /* Headings */
@@ -26,7 +26,7 @@ h6 {
 }
 
 .brown-background {
-    background-color: #a6543e;
+    background-color: #3d2e30;
     width: 100%;
     height: 90px;
     position: fixed;
@@ -44,7 +44,7 @@ h6 {
 }
 
 #logo:hover {
-    color: #8d8e86;
+    color: #f26e31;
 }
 
 #nav-bar {
@@ -57,7 +57,7 @@ h6 {
 #nav-bar,
 #logo {
     line-height: 75px;
-    background-color: #a6543e;
+    background-color: #3d2e30;
 }
 
 #nav-bar li {
@@ -72,7 +72,7 @@ h6 {
 }
 
 #nav-bar a:hover {
-    color: #8d8e86;
+    color: #f26e31;
 }
 
 
@@ -130,7 +130,7 @@ h6 {
 
     padding-top: 40px;
     padding-left: 10px;
-    background-color: #161827;
+    background-color: #f26e31;
 
     border-radius: 30%;
 
@@ -150,8 +150,8 @@ h6 {
 
 .information-text-left {
     height: 30vh;
-    background-color: #161827;
-    color: #a6543e;
+    background-color: #f26e31;
+    color: #3d2e30;
     width: 50%;
     float: left;
     text-align: center;
@@ -172,8 +172,8 @@ h6 {
 
 .information-text-right {
     height: 30vh;
-    background-color: #161827;
-    color: #a6543e;
+    background-color: #f26e31;
+    color: #3d2e30;
     width: 50%;
     float: right;
     text-align: center;
@@ -231,11 +231,11 @@ h6 {
 .section-banner {
     display: block;
     width: 100%;
-    background-color: #161827;
+    background-color: #f26e31;
 }
 
 .section-banner h1 {
-    color: #a6543e;
+    color: #3d2e30;
     font-size: 200%;
     text-align: center;
     text-decoration: underline;
@@ -246,7 +246,7 @@ h6 {
 
 .signup {
     height: 80%;
-    background-color: #161827;
+    background-color: #f26e31;
     color: white;
     width: 75%;
     padding: 25px;
@@ -271,9 +271,9 @@ h6 {
 table,
 th,
 td {
-    border: 1px solid #a6543e;
+    border: 1px solid #3d2e30;
     color: white;
-    background-color: #161827;
+    background-color: #f26e31;
     border-collapse: collapse;
     padding: 10px;
 }
@@ -293,9 +293,9 @@ table td {
     margin: 0 auto;
     padding-top: 1vh;
     padding-bottom: 1vh;
-    border: 1px solid #161827;
+    border: 1px solid #f26e31;
     width: 100%;
-    background-color: #a6543e;
+    background-color: #3d2e30;
     color: white;
 }
 
@@ -311,50 +311,53 @@ table td {
 }
 
 #footer-container a:hover {
-    color: #8d8e86;
+    color: #f26e31;
 }
 
 /* Contact-section styling*/
 
 #contact-intro {
     color: white;
-    background-color: #161827;
+    background-color: #f26e31;
     width: 100%;
     text-align: center;
+    padding: 25px;
+    text-decoration: underline; 
 }
 
 #contact-section-big-div {
-width: 100%;
-margin-top: 25px;
-margin-bottom: 25px;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #contact-section-left-div {
-float: left;
-background-color: #a6543e;
-width: 33%;
-height: 350px;
-padding-top: 25px;
+    float: left;
+    background-color: #3d2e30;
+    width: 33%;
+    height: 350px;
+    padding-top: 25px;
 }
 
 #contact-section-right-div {
-float:right;
-background-color: #a6543e;
-height: 350px;
-width: 33%;
-padding-top: 25px;
+    float: right;
+    background-color: #3d2e30;
+    height: 350px;
+    width: 33%;
+    padding-top: 25px;
 }
 
 #contact-section-right-div table {
     margin-right: auto;
     margin-left: auto;
 }
+
 #contact-section-center-div {
-margin: 0 auto;
-background-color: #a6543e;
-height: 350px;
-width: 33%;
-padding-top:25px;
+    margin: 0 auto;
+    background-color: #3d2e30;
+    height: 350px;
+    width: 33%;
+    padding-top: 25px;
 }
 
 #contact-section-center-div table {
