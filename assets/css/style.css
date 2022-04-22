@@ -145,7 +145,7 @@ h6 {
     height: 30vh;
     margin-top: 25px;
     margin-bottom: 50px;
-    
+
 }
 
 .information-text-left {
@@ -242,7 +242,44 @@ h6 {
     padding: 25px;
 }
 
-/*Opening times table styling */
+/* Form styling */
+
+#contact-intro {
+    color: white;
+    background-color: #161827;
+    width: 100%;
+    text-align: center;
+}
+
+#contact-div {
+    position: relative;
+    width: 100%;
+
+}
+
+.signup {
+    height: 50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: #161827;
+    color: white;
+    width: 50%;
+    padding: 25px;
+    border: 5px solid white;
+    font-size: 100%;
+}
+
+.signup h2 {
+    text-decoration: underline;
+}
+
+.signup-input {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    font-size: 100%;
+}
+
+/*Opening times and prices table styling */
 
 table,
 th,
@@ -257,6 +294,8 @@ td {
 table td {
     text-align: center;
 }
+
+/* footer styling */
 
 #footer-container {
     width: 100%;
@@ -277,8 +316,9 @@ table td {
     font-family: Nunito, sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
-    font-size:150%;
+    font-size: 150%;
 }
+
 #footer-container a {
     color: inherit;
 }

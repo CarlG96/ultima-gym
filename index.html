@@ -133,20 +133,23 @@
         <h1>Contact Us/ Opening Times</h1>
     </div>
     <section>
-        <div>
+        <div id="contact-intro">
             <p>
                 If you would like to sign up for our gym, please either call us on 01256 918291281 or fill out the form
                 below and we will contact you as soon as possible!
             </p>
-            <form method="POST" action="https://formdump.codeinstitute.net/">
+        </div>
+        <div id="contact-div">
+            <form method="POST" action="https://formdump.codeinstitute.net/" class="signup">
+                <h2>Sign Up Here!</h2>
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" placeholder="Type your first name here" name="fname" required>
+                <input type="text" id="fname" placeholder="Type your first name here" name="fname" class="signup-input" required>
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname" placeholder="Type your last name here" name="lname" required>
+                <input type="text" id="lname" placeholder="Type your last name here" name="lname" class="signup-input" required>
                 <label for="email">Email Address</label>
-                <input type="email" id="email" placeholder="Type your email address here" name="email" required>
+                <input type="email" id="email" placeholder="Type your email address here" name="email" class="signup-input" required>
                 <label for="phonenum">Phone Number (optional)</label>
-                <input type="tel" id="phonenum" placeholder="Type your phone number here" name="phonenum">
+                <input type="tel" id="phonenum" placeholder="Type your phone number here" name="phonenum" class="signup-input">
                 <label for="age-confirm">Please confirm you are over 18 years of age</label>
                 <input type="checkbox" id="age-confirm" name="age-confirm" required>
                 <input type="submit" id="submit" value="Sign Up!">
@@ -154,7 +157,7 @@
         </div>
     </section>
     <!--Opening Times and prices aside-->
-    <aside>
+    <aside id="info-tables">
         <div>
             <table>
                 <tr>
