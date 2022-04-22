@@ -252,9 +252,8 @@ h6 {
 }
 
 #contact-div {
-    position: relative;
-    width: 100%;
-
+    width: 33%;
+    display:inline-block;
 }
 
 .signup {
@@ -263,10 +262,12 @@ h6 {
     margin-bottom: 25px;
     background-color: #161827;
     color: white;
-    width: 50%;
+    width: 75%;
     padding: 25px;
     border: 5px solid white;
     font-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .signup h2 {
@@ -325,4 +326,42 @@ table td {
 
 #footer-container a:hover {
     color: #8d8e86;
+}
+
+/* test stuff */
+#contact-section-big-div {
+width: 100%;
+height: 100%;
+}
+
+#contact-section-left-div {
+float: left;
+background-color: #a6543e;
+width: 33%;
+height: 1000px;
+}
+
+#contact-section-right-div {
+float:right;
+background-color: #a6543e;
+height: 1000px;
+width: 33%;
+padding-top: 25px;
+}
+
+#contact-section-right-div table {
+    margin-right: auto;
+    margin-left: auto;
+}
+#contact-section-center-div {
+margin: 0 auto;
+background-color: #a6543e;
+height: 1000px;
+width: 33%;
+padding-top:25px;
+}
+
+#contact-section-center-div table {
+    margin-left: auto;
+    margin-right: auto;
 }
