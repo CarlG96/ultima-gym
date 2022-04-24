@@ -141,20 +141,19 @@ h6 {
 /*Text and image section styling */
 
 .text-and-image-section {
-    height: 30vh;
+    height: 400px;
     margin-top: 25px;
-    margin-bottom: 50px;
-
+    margin-bottom: 25px;
 }
 
 .information-text-left {
-    height: 30vh;
+    height: 400px;
     background-color: #f26e31;
     color: #3d2e30;
     width: 50%;
     float: left;
     text-align: center;
-    padding-bottom: 25px;
+
 }
 
 .information-text-left h2 {
@@ -167,16 +166,16 @@ h6 {
 
 .information-text-left p {
     color: white;
+    font-size: 1.3rem;
 }
 
 .information-text-right {
-    height: 30vh;
+    height: 400px;
     background-color: #f26e31;
     color: #3d2e30;
     width: 50%;
     float: right;
     text-align: center;
-    padding-bottom: 25px;
 }
 
 .information-text-right h2 {
@@ -189,6 +188,7 @@ h6 {
 
 .information-text-right p {
     color: white;
+    font-size: 1.3rem;
 }
 
 .float-right-icon {
@@ -202,19 +202,17 @@ h6 {
 }
 
 .image-next-to-text-right {
-    height: 30vh;
+    height: 400px;
     float: right;
     width: 50%;
     background-color: white;
-    padding-bottom: 25px;
 }
 
 .image-next-to-text-left {
-    height: 30vh;
+    height: 400px;
     float: left;
     width: 50%;
     background-color: white;
-    padding-bottom: 25px;
 }
 
 /* Paragraph class rules */
@@ -227,6 +225,7 @@ h6 {
 
 .section-banner {
     display: block;
+    position: static;
     width: 100%;
     background-color: #f26e31;
 }
@@ -360,6 +359,78 @@ table td {
 #contact-section-center-div table {
     margin-left: auto;
     margin-right: auto;
+}
+
+/*Media Queries for Main Page*/
+@media screen and (max-width: 1600px) {
+
+    .information-text-left {
+        width: 100%;
+    }
+
+    .information-text-right {
+        width: 100%;
+        float: left;
+    }
+
+    .image-next-to-text-left {
+        width: 100%;
+    }
+
+    .image-next-to-text-right {
+        width: 100%;
+        float: left;
+    }
+
+    .section-banner {
+
+        position:static;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .information-text-left p {
+        
+    }
+
+    .information-text-right p {
+       
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .information-text-left p {
+        
+    }
+
+    .information-text-right p {
+       
+    }
+}
+
+/*Limit of tables*/
+@media screen and (max-width: 1000px) {
+    .information-text-left p {
+        font-size: 1.1rem;
+    }
+
+    .information-text-right p {
+        font-size: 1.1rem;
+    }
+}
+
+/*Change for navigation bar*/
+@media screen and (max-width: 900px) {}
+
+/*Change font size*/
+@media screen and (max-width: 7px) {
+    .information-text-left p {
+        font-size: 1rem;
+    }
+
+    .information-text-right p {
+        font-size: 1rem;
+    }
 }
 
 /*Contact Form Submission Page*/
