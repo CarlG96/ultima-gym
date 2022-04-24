@@ -101,24 +101,6 @@ h6 {
 
 }
 
-#welcome-message,
-#welcome-message h2 {
-    color: white;
-    padding: 10px;
-    text-align: end;
-}
-
-/* Hero Image Animation */
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.05);
-    }
-}
-
 #welcome-message {
     font-size: 150%;
     font-family: Nunito, sans-serif;
@@ -136,6 +118,24 @@ h6 {
     bottom: 50%;
     right: 60%;
     position: absolute;
+}
+
+#welcome-message,
+#welcome-message h2 {
+    color: white;
+    padding: 10px;
+    text-align: end;
+}
+
+/* Hero Image Animation */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
 }
 
 /*Text and image section styling */
@@ -383,8 +383,12 @@ table td {
     }
 
     .section-banner {
-
+        clear: both;
         position:static;
+    }
+
+    .section-banner h1 {
+        border:#3d2e30 5px solid;
     }
 }
 
@@ -420,16 +424,46 @@ table td {
 }
 
 /*Change for navigation bar*/
-@media screen and (max-width: 900px) {}
+@media screen and (max-width: 900px) {
+    #nav-bar {
+        width:100%;
+        clear: left;
+        float: left;
+        padding-left: 25px;
+        line-height: 35px;
+    }
+
+    #nav-bar li {
+        float:left;
+        text-align: center;
+        margin-right: none;
+    }
+    #welcome-message {
+        display:none;
+    }
+}
 
 /*Change font size*/
-@media screen and (max-width: 7px) {
+@media screen and (max-width: 700px) {
     .information-text-left p {
         font-size: 1rem;
     }
 
     .information-text-right p {
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    #nav-bar li {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #nav-bar li {
+        font-size: 50%;
     }
 }
 
