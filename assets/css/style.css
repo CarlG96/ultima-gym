@@ -316,7 +316,7 @@ table td {
 #contact-intro {
     color: white;
     background-color: #f26e31;
-    width: 100%;
+    width: inherit;
     text-align: center;
     padding: 25px;
     text-decoration: underline;
@@ -360,4 +360,15 @@ table td {
 #contact-section-center-div table {
     margin-left: auto;
     margin-right: auto;
+}
+
+/*Contact Form Submission Page*/
+#full-page {
+    width: 100%;
+    height: 100%;
+    background-color: #f26e31;
+}
+
+#full-page h1 {
+    color: #3d2e30;
 }
