@@ -459,13 +459,28 @@ table td {
     #nav-bar li {
         font-size: 80%;
     }
+
+    .information-text-left p {
+        font-size: 0.9rem;
+    }
+
+    .information-text-right-p {
+        font-size: 0.9rem;
+    }
 }
 
 @media screen and (max-width: 460px) {
     #nav-bar li {
         font-size: 50%;
     }
-}
+
+    .information-text-right p {
+        font-size: 0.8rem;
+    }
+
+    .information-text-left p {
+        font-size: 0.8rem;
+    }
 
 /*Contact Form Submission Page*/
 #full-page {
