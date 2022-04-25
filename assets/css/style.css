@@ -274,6 +274,7 @@ table td {
 
 #footer-container {
     width: 100%;
+    
 }
 
 #footer-container>div {
@@ -282,7 +283,7 @@ table td {
     padding-top: 1vh;
     padding-bottom: 1vh;
     border: 1px solid #f26e31;
-    width: 100%;
+    width: 95%;
     background-color: #3d2e30;
     color: #ffffff;
 }
