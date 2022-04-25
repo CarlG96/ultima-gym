@@ -519,6 +519,10 @@ table td {
     #footer-container details {
         font-size: 150%;
     }
+
+    #hero-outer, #hero-image {
+        height: 200px;
+    }
 }
 
 @media screen and (max-width: 460px) {
@@ -540,6 +544,14 @@ table td {
 {
     #logo {
         font-size: 200%;
+    }
+
+    .information-text-right p {
+        font-size: 0.7rem;
+    }
+
+    .information-text-left p {
+        font-size: 0.7rem;
     }
 }
 
