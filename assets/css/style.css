@@ -518,6 +518,14 @@ table td {
     .information-text-right-p {
         font-size: 0.9rem;
     }
+
+    #footer-container> div {
+        font-size: 50%;
+    }
+
+    #footer-container details {
+        font-size: 150%;
+    }
 }
 
 @media screen and (max-width: 460px) {
