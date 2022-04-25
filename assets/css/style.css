@@ -536,6 +536,13 @@ table td {
 
 }
 
+@media screen and (max-width: 350px)
+{
+    #logo {
+        font-size: 200%;
+    }
+}
+
 /*Contact Form Submission Page*/
 #full-page {
     width: 100vw;
