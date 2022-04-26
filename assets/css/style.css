@@ -106,6 +106,7 @@ h6 {
     from {
         transform: scale(1);
     }
+
     to {
         transform: scale(1.05);
     }
@@ -396,6 +397,7 @@ table td {
 /* Media query which reduces padding below 1200px width */
 
 @media screen and (max-width: 1200px) {
+
     table,
     th,
     td {
