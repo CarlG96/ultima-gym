@@ -47,9 +47,26 @@ The website has an introduction stating the goals of Ultima Gym (helping people 
 * The Contact Section Banner and the Contact Intro
     * The Contact Section Banner is similar to the Services Section Banner in its appearance except underneath it is the Contact Intro in this case.
     * The Contact Intro introduces the user to the Contact Section, displaying white text on an orange background and asking them to contact Ultima Gym either by phone or by completing the sign-up form below.
+    * The Contact Section consists of three separate areas (Sign-up Form, Opening Times Table and Prices Table), for larger screen sizes they are arranged horizontally but for smaller screen sizes they are displayed vertically one after another so they fit the screen.
 
 * The Sign-up Form
-    *
+    * The Sign-up Form consists of a form where the user can submit their details (First Name, Last Name, email address, optional phone number and a checkbox stating whether they are over 18 years old).
+    * The Sign-up Form acts as a way for the user to contact Ultima Gym to let them know they are interested and gives the staff of Ultima Gym the ability to contact the user through email or potentially via a text if the user has submitted their phone number.
+    * The Sign-up Form links to the form-submission.html page once the relevant fields have been filled in properly. If they haven't the form will notify the user and will not be submitted.
+
+* The Opening Times Table and the Prices Table
+    * These tables make up the rest of the Contact Section and consist of two tables that display information on the opening times and prices of Ultima Gym.
+    * The text of the tables is centered to make it more easily readable.
+
+* The Footer, the Address and the Social Media Links
+    * The Footer consists of four div elements on top of eachother displaying the address of Ultima Gym and links to Ultima Gym social media.
+    * It follows the same color scheme as the Logo and Navigation Bar and the clickable social media links turn orange when hovered over as well.
+    * The Address can be clicked on to drop down to display Ultima Gym's Address. This drop-down means it only takes up space on the user's screen when they want it to.
+    * The social media links have Font Awesome icons displaying the relevant social media icons which can be clicked on to take you to the relevant social media website.
+
+* The Form Submission Page
+    * The Form Submission Page is a very basic page using the color scheme from the main website. There is only one option here which is to click the highlighted and underlined link back to the main page.
+    * The purpose of this page is to make sure that the user knows they have submitted their information to Ultima Gym.
 
 ## Future Features
 
