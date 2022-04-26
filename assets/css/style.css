@@ -85,6 +85,7 @@ h6 {
     padding-top: 90px;
     position: relative;
 }
+
 /*Animation for the.hero image*/
 .hero-image {
     width: 100%;
@@ -281,7 +282,7 @@ table td {
 
 .footer-container {
     width: 100%;
-    
+
 }
 
 .footer-container>div {
@@ -318,7 +319,6 @@ table td {
     width: inherit;
     text-align: center;
     padding: 25px;
-    text-decoration: underline;
 }
 
 .contact-section-wrapper {
@@ -457,18 +457,17 @@ table td {
         padding: 0px;
     }
 
-    table td, th {
+    table td,
+    th {
         font-size: 80%;
     }
 
     .signup {
-        padding: 0px; 
+        padding: 0px;
         font-size: 80%;
     }
 
-    .signup-input {
-
-    }
+    .signup-input {}
 
     .contact-section-left-div {
         width: 100%;
@@ -482,7 +481,7 @@ table td {
     }
 
     .contact-section-center-div {
-        width:100%;
+        width: 100%;
         float: left;
         height: fit-content;
         margin-bottom: 25px;
@@ -519,7 +518,7 @@ table td {
         font-size: 0.9rem;
     }
 
-    .footer-container> div {
+    .footer-container>div {
         font-size: 50%;
     }
 
@@ -527,7 +526,8 @@ table td {
         font-size: 150%;
     }
 
-    .hero-outer, .hero-image {
+    .hero-outer,
+    .hero-image {
         height: 200px;
     }
 }
@@ -547,8 +547,7 @@ table td {
 
 }
 
-@media screen and (max-width: 350px)
-{
+@media screen and (max-width: 350px) {
     .logo {
         font-size: 200%;
     }
