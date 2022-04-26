@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=PT+Sans&display=swap');
 
+/*Styling for all elements*/
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
+
+/*Styling for Body Elements Generally*/
 
 body {
     font-family: PT Sans, sans-serif;
@@ -25,6 +29,8 @@ h6 {
     letter-spacing: 2px;
 }
 
+/*Logo and Navigation Bar Styling*/
+
 .nav-background {
     background-color: #3d2e30;
     width: 100%;
@@ -32,8 +38,6 @@ h6 {
     position: fixed;
     z-index: 1;
 }
-
-/*logo and.navigation bar*/
 
 .logo {
     float: left;
@@ -76,7 +80,7 @@ h6 {
 }
 
 
-/* Hero Image And.welcome Message */
+/* Hero Image and Welcome Message Styling*/
 .hero-outer {
     width: 100%;
     height: 600px;
@@ -86,7 +90,6 @@ h6 {
     position: relative;
 }
 
-/*Animation for the.hero image*/
 .hero-image {
     width: 100%;
     height: 600px;
@@ -96,6 +99,16 @@ h6 {
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+}
+
+/* Hero Image Animation */
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.05);
+    }
 }
 
 .welcome-message {
@@ -120,18 +133,7 @@ h6 {
     text-align: end;
 }
 
-/* Hero Image Animation */
-@keyframes hero-zoom {
-    from {
-        transform: scale(1);
-    }
-
-    to {
-        transform: scale(1.05);
-    }
-}
-
-/*Text and image section styling */
+/*Text and Image Section Styling */
 
 .text-and-image-section {
     height: 400px;
@@ -146,7 +148,6 @@ h6 {
     width: 50%;
     float: left;
     text-align: center;
-
 }
 
 .information-text-left h2 {
@@ -208,20 +209,19 @@ h6 {
     background-color: #ffffff;
 }
 
-/* Paragraph class rules */
+/* Paragraph Styling */
 .float-center-paragraph {
     width: 75%;
     margin: 0 auto;
 }
 
-/*Image styling*/
+/* Image styling */
 .image {
     height: 400px;
     width: 100%;
-    background-attachment: scroll;
 }
 
-/*Section Banner */
+/* Section Banner Styling */
 
 .section-banner {
     display: block;
@@ -238,80 +238,7 @@ h6 {
     padding: 25px;
 }
 
-/* Form styling */
-
-.signup {
-    height: 80%;
-    background-color: #f26e31;
-    color: #ffffff;
-    width: 75%;
-    padding: 25px;
-    border: 5px solid #ffffff;
-    font-size: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.signup h2 {
-    text-decoration: underline;
-}
-
-.signup-input {
-    width: 100%;
-    margin: 10px 0 10px 0;
-    font-size: 100%;
-}
-
-/*Opening times and prices table styling */
-
-table,
-th,
-td {
-    border: 1px solid #3d2e30;
-    color: #ffffff;
-    background-color: #f26e31;
-    border-collapse: collapse;
-    padding: 10px;
-}
-
-table td {
-    text-align: center;
-}
-
-/* footer styling */
-
-.footer-container {
-    width: 100%;
-
-}
-
-.footer-container>div {
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    border: 1px solid #f26e31;
-    width: 95%;
-    background-color: #3d2e30;
-    color: #ffffff;
-}
-
-.footer-container summary {
-    font-family: Nunito, sans-serif;
-    font-weight: 400;
-    letter-spacing: 2px;
-    font-size: 150%;
-}
-
-.footer-container a {
-    color: inherit;
-}
-
-.footer-container a:hover {
-    color: #f26e31;
-}
-
-/*contact-section styling*/
+/*Contact-Section styling*/
 
 .contact-intro {
     color: #ffffff;
@@ -361,9 +288,83 @@ table td {
     margin-right: auto;
 }
 
-/*Media Queries for Main Page*/
-@media screen and (max-width: 1600px) {
+/* Form styling */
 
+.signup {
+    height: 80%;
+    background-color: #f26e31;
+    color: #ffffff;
+    width: 75%;
+    padding: 25px;
+    border: 5px solid #ffffff;
+    font-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signup h2 {
+    text-decoration: underline;
+}
+
+.signup-input {
+    width: 100%;
+    margin: 10px 0 10px 0;
+    font-size: 100%;
+}
+
+/* Opening times and Prices Table Styling */
+
+table,
+th,
+td {
+    border: 1px solid #3d2e30;
+    color: #ffffff;
+    background-color: #f26e31;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table td {
+    text-align: center;
+}
+
+/* Footer Styling */
+
+.footer-container {
+    width: 100%;
+}
+
+.footer-container>div {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    border: 1px solid #f26e31;
+    width: 95%;
+    background-color: #3d2e30;
+    color: #ffffff;
+}
+
+.footer-container summary {
+    font-family: Nunito, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 150%;
+}
+
+.footer-container a {
+    color: inherit;
+}
+
+.footer-container a:hover {
+    color: #f26e31;
+}
+
+/* Media Queries for Main Page */
+
+/* Media Query which changes information text, images and section banner stylings below 1600px width */
+
+@media screen and (max-width: 1600px) {
     .information-text-left {
         width: 100%;
     }
@@ -392,32 +393,18 @@ table td {
     }
 }
 
-@media screen and (max-width: 1400px) {
-    .information-text-left p {}
-
-    .information-text-right p {}
-}
+/* Media query which reduces padding below 1200px width */
 
 @media screen and (max-width: 1200px) {
-
     table,
     th,
     td {
         padding: 5px;
     }
-
-    table td {
-        text-align: center;
-    }
 }
 
-@media screen and (max-width: 1090px) {
-    .information-text-left p {}
+/* Media query which reduces size of text in paragraphs when they become too large for their containers below 1000px width */
 
-    .information-text-right p {}
-}
-
-/*Limit of tables*/
 @media screen and (max-width: 1000px) {
     .information-text-left p {
         font-size: 1.1rem;
@@ -428,7 +415,10 @@ table td {
     }
 }
 
-/*Change for.navigation bar*/
+/* Media Query for when navigation bar starts to glitch,
+tables need less padding, and contact and footer sections need adjustment 
+below 900px width */
+
 @media screen and (max-width: 900px) {
     .nav-bar {
         width: 100%;
@@ -447,9 +437,6 @@ table td {
     .welcome-message {
         display: none;
     }
-}
-
-@media screen and (max-width: 900px) {
 
     table,
     th,
@@ -466,8 +453,6 @@ table td {
         padding: 0px;
         font-size: 80%;
     }
-
-    .signup-input {}
 
     .contact-section-left-div {
         width: 100%;
@@ -493,6 +478,8 @@ table td {
     }
 }
 
+/* Media Query for reduction in heading size for information paragraphs below 800px width */
+
 @media screen and (max-width: 800px) {
     .information-text-left h2 {
         font-size: 150%;
@@ -503,7 +490,8 @@ table td {
     }
 }
 
-/*Change font size*/
+/* Media Query for further reduction in information paragraph font size below 700px width */
+
 @media screen and (max-width: 700px) {
     .information-text-left p {
         font-size: 1rem;
@@ -513,6 +501,8 @@ table td {
         font-size: 1rem;
     }
 }
+
+/* Media Query for reduction in paragraph fonts, navigation elements and hero-image below 550px width */
 
 @media screen and (max-width: 550px) {
 
@@ -550,6 +540,8 @@ table td {
     }
 }
 
+/* Media query for changing navigation and information paragraph font sizes below 460px width */
+
 @media screen and (max-width: 460px) {
     .nav-bar li {
         font-size: 50%;
@@ -562,8 +554,9 @@ table td {
     .information-text-left p {
         font-size: 0.8rem;
     }
-
 }
+
+/* Media query for reducing logo and information paragraph font sizes below 350px width */
 
 @media screen and (max-width: 350px) {
     .logo {
@@ -579,7 +572,7 @@ table td {
     }
 }
 
-/* contact Form Submission Page*/
+/* Contact Form Submission Page */
 .full-page {
     width: 100vw;
     height: 100vh;
