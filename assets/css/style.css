@@ -493,6 +493,16 @@ table td {
     }
 }
 
+@media screen and (max-width: 800px) {
+    .information-text-left h2 {
+        font-size: 150%;
+    }
+
+    .information-text-right h2 {
+        font-size: 150%;
+    }
+}
+
 /*Change font size*/
 @media screen and (max-width: 700px) {
     .information-text-left p {
@@ -516,6 +526,14 @@ table td {
 
     .information-text-right-p {
         font-size: 0.9rem;
+    }
+
+    .information-text-left h2>i {
+        display: none;
+    }
+
+    .information-text-right h2>i {
+        display: none;
     }
 
     .footer-container>div {

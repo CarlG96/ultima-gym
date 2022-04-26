@@ -6,7 +6,7 @@ The Ultima Gym website is a landing page for fitness enthusiasts in the Basingst
 
 The website has an introduction stating the goals of Ultima Gym (helping people realise their fitness goals), two further sections explaining how those goals are achieved (through state-of-the-art equipment/ facilities and an on-hand personal training team), and a section with information about meeting times, prices, telephone numbers and a sign up form. The website also features a footer section with links to social media and an address of the Ultima Gym facility.
 
-## User Stories
+All of this information is useful for anyone looking to sign up at a gym like Ultima Gym and it is all displayed on one page in clearly defined and easily navigable sections so the user will be able to easily find what information they want.
 
 ## Features
 
@@ -70,13 +70,65 @@ The website has an introduction stating the goals of Ultima Gym (helping people 
 
 ## Future Features
 
+* Resizable Images
+    * I would like to make a feature where the images more resizable depending on screen size.
+
+* Change to Logo and Navigation Bars
+    * I would like a feature where on small screen sizes the Logo is replaced by a symbol and the navigation bar is replaced with a drop down menu making it easier for mobile users.
+
 ## Typography and Color Scheme
 
+* Color Scheme
+    * The color scheme used in my website was designed to be contrasting and therefore accessible for the visually impaired. I generated multiple color schemes on the http://colormind.io/ website before deciding on one that fit the Ultima Gym website. Colormind is a deep learning tool which generates color schemes.
+    * The hex values of the colors used in my website are: 
+        *#ffffff for the white color
+        *#f26e31 for the orange color
+        *#ab9a99 for the light grey background color
+        *#3d2e30 for the dark grey color
+    * These colors when contrasted look both clean and energetic; ideal for a website advertising a gym.
+
+* Font Pairings
+    * During research for the website, I read the article at https://www.pagecloud.com/blog/best-google-fonts-pairings and decided to use the pairing of PT Sans for paragraph text and Nunito as heading text as I thought the combination looked clean and modern.
+    * These fonts were taken from https://fonts.google.com/ .
+
+* Font Awesome Icons
+    * For the Our Services, Our Personal Training Team and the social media links icons were taken from https://fontawesome.com/ .
+
 ## Wireframes and Prototypes
+* Balsamiq Wireframes
+    * Throughout the design stage of the Ultima Gym webpage, Balsamiq Wireframes was used to sketch out a basic idea. The idea changed slightly in the final product but for the most part retains alot of the design.
 
 ## Technology Used
+* HTML
+    * Used to build the structure of the website.
+
+* CSS
+    * Used to style the website and change depending on screen sizes with media queries.
+
+* Balsamiq Wireframes
+    * Used for prototyping and sketching out the website.
+
+* Colormind
+    * Used to generate color schemes.
+
+* Font Awesome
+    * Scripts and Icons used to put icons in the Ultima Gym website.
+
+* Google Fonts
+    * Used to style the fonts of the website.
+
+* Pexels
+    * Used for images on website.
+
+* GitHub
+    * Used for repository and deployment of website.
+
+* Gitpod 
+    * Used for development of the website.
 
 ## Testing
+
+## Bugs
 
 ## Deployment
 
