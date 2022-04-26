@@ -33,9 +33,9 @@ h6 {
     z-index: 1;
 }
 
-/*Logo and navigation bar*/
+/*logo and.navigation bar*/
 
-#logo {
+.logo {
     float: left;
     font-size: 300%;
     margin-left: 25px;
@@ -43,41 +43,41 @@ h6 {
     color: #ffffff;
 }
 
-#logo:hover {
+.logo:hover {
     color: #f26e31;
 }
 
-#nav-bar {
+.nav-bar {
     font-size: 170%;
     float: right;
     text-decoration: none;
     color: #ffffff;
 }
 
-#nav-bar,
-#logo {
+.nav-bar,
+.logo {
     line-height: 75px;
     background-color: #3d2e30;
 }
 
-#nav-bar li {
+.nav-bar li {
     float: left;
     list-style-type: none;
     margin-right: 40px;
 }
 
-#nav-bar a {
+.nav-bar a {
     text-decoration: none;
     color: #ffffff;
 }
 
-#nav-bar a:hover {
+.nav-bar a:hover {
     color: #f26e31;
 }
 
 
-/* Hero Image And Welcome Message */
-#hero-outer {
+/* Hero Image And.welcome Message */
+.hero-outer {
     width: 100%;
     height: 600px;
     overflow: hidden;
@@ -85,8 +85,8 @@ h6 {
     padding-top: 90px;
     position: relative;
 }
-/*Animation for the hero image*/
-#hero-image {
+/*Animation for the.hero image*/
+.hero-image {
     width: 100%;
     height: 600px;
     background: url(../images/treadmill-runner.jpg) no-repeat center center;
@@ -97,7 +97,7 @@ h6 {
     animation-fill-mode: forwards;
 }
 
-#welcome-message {
+.welcome-message {
     font-size: 150%;
     font-family: Nunito, sans-serif;
     letter-spacing: 2px;
@@ -112,8 +112,8 @@ h6 {
     position: absolute;
 }
 
-#welcome-message,
-#welcome-message h2 {
+.welcome-message,
+.welcome-message h2 {
     color: #ffffff;
     padding: 10px;
     text-align: end;
@@ -279,12 +279,12 @@ table td {
 
 /* footer styling */
 
-#footer-container {
+.footer-container {
     width: 100%;
     
 }
 
-#footer-container>div {
+.footer-container>div {
     text-align: center;
     margin: 0 auto;
     padding-top: 1vh;
@@ -295,24 +295,24 @@ table td {
     color: #ffffff;
 }
 
-#footer-container summary {
+.footer-container summary {
     font-family: Nunito, sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
     font-size: 150%;
 }
 
-#footer-container a {
+.footer-container a {
     color: inherit;
 }
 
-#footer-container a:hover {
+.footer-container a:hover {
     color: #f26e31;
 }
 
-/* Contact-section styling*/
+/*contact-section styling*/
 
-#contact-intro {
+.contact-intro {
     color: #ffffff;
     background-color: #f26e31;
     width: inherit;
@@ -321,13 +321,13 @@ table td {
     text-decoration: underline;
 }
 
-#contact-section-wrapper {
+.contact-section-wrapper {
     width: 100%;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
-#contact-section-left-div {
+.contact-section-left-div {
     float: left;
     background-color: #3d2e30;
     width: 33%;
@@ -335,7 +335,7 @@ table td {
     padding-top: 25px;
 }
 
-#contact-section-right-div {
+.contact-section-right-div {
     float: right;
     background-color: #3d2e30;
     height: 350px;
@@ -343,12 +343,12 @@ table td {
     padding-top: 25px;
 }
 
-#contact-section-right-div table {
+.contact-section-right-div table {
     margin-right: auto;
     margin-left: auto;
 }
 
-#contact-section-center-div {
+.contact-section-center-div {
     margin: 0 auto;
     background-color: #3d2e30;
     height: 350px;
@@ -356,7 +356,7 @@ table td {
     padding-top: 25px;
 }
 
-#contact-section-center-div table {
+.contact-section-center-div table {
     margin-left: auto;
     margin-right: auto;
 }
@@ -428,9 +428,9 @@ table td {
     }
 }
 
-/*Change for navigation bar*/
+/*Change for.navigation bar*/
 @media screen and (max-width: 900px) {
-    #nav-bar {
+    .nav-bar {
         width: 100%;
         clear: left;
         float: left;
@@ -438,13 +438,13 @@ table td {
         line-height: 35px;
     }
 
-    #nav-bar li {
+    .nav-bar li {
         float: left;
         text-align: center;
         margin-right: none;
     }
 
-    #welcome-message {
+    .welcome-message {
         display: none;
     }
 }
@@ -470,18 +470,18 @@ table td {
 
     }
 
-    #contact-section-left-div {
+    .contact-section-left-div {
         width: 100%;
         height: fit-content;
     }
 
-    #contact-section-right-div {
+    .contact-section-right-div {
         width: 100%;
         float: left;
         height: fit-content;
     }
 
-    #contact-section-center-div {
+    .contact-section-center-div {
         width:100%;
         float: left;
         height: fit-content;
@@ -489,7 +489,7 @@ table td {
         padding-bottom: 10px;
     }
 
-    #footer-container {
+    .footer-container {
         clear: both;
     }
 }
@@ -507,7 +507,7 @@ table td {
 
 @media screen and (max-width: 550px) {
 
-    #nav-bar li {
+    .nav-bar li {
         font-size: 80%;
     }
 
@@ -519,21 +519,21 @@ table td {
         font-size: 0.9rem;
     }
 
-    #footer-container> div {
+    .footer-container> div {
         font-size: 50%;
     }
 
-    #footer-container details {
+    .footer-container details {
         font-size: 150%;
     }
 
-    #hero-outer, #hero-image {
+    .hero-outer, .hero-image {
         height: 200px;
     }
 }
 
 @media screen and (max-width: 460px) {
-    #nav-bar li {
+    .nav-bar li {
         font-size: 50%;
     }
 
@@ -549,7 +549,7 @@ table td {
 
 @media screen and (max-width: 350px)
 {
-    #logo {
+    .logo {
         font-size: 200%;
     }
 
@@ -562,26 +562,26 @@ table td {
     }
 }
 
-/*Contact Form Submission Page*/
-#full-page {
+/* contact Form Submission Page*/
+.full-page {
     width: 100vw;
     height: 100vh;
     background-color: #f26e31;
     text-align: center;
 }
 
-#full-page h1 {
+.full-page h1 {
     color: #3d2e30;
 }
 
-#full-page button {
+.full-page button {
     text-decoration-color: none;
     font-size: 170%;
     position: relative;
     background-color: #3d2e30;
 }
 
-#full-page a {
+.full-page a {
     color: #ffffff;
     text-decoration-color: #ffffff;
 }
