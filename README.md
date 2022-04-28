@@ -128,7 +128,39 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
 
 ## Testing
 
+* HTML Validator
+    * https://validator.w3.org/
+    * When passed through the W3C HTML validator no errors or warnings were found.
+
+* CSS Validator
+    * https://jigsaw.w3.org/css-validator/
+    * When passed through the W3C CSS validator no errors found (1 warning given from the imported style sheet but this is something the validator does not check).
+
+* Search Engines
+    * Ultima Gym website has full functionality and works well in the Google Chrome web browser.
+    * Ultima Gym website has full functionality and works well in the Brave web browser.
+    * Ultima Gym website has full functionality and works well in the Firefox web browser.
+
+* Screen Sizes
+    * Ultima Gym website fully functional with no obvious visual glitches on iPhone SE simulated in DevTools.
+    * Ultima Gym website fully functional with not obvious visual glitches on Samsung Galaxy S20 Ultra simulated in DevTools.
+    * Ultima Gym website fully functional on 1920x1080 monitor with no visual glitches.
+    * Ultima Gym website fully functional with no obvious visual glitches on Nest Hub simulated in DevTools.
+
+* Text Contrast
+    * I confirmed (and got others to confirm) that the text is legible and understandable across the website.
+
+* Functionality
+    * I confirmed that the internal links and external links are fully functional.
+    * I confirmed that the Sign-up Form will not be sent unless all the required fields are filled in/ checked.
+    * I confirmed that it is possible to navigate from the form submission page back to the main page of the website.
+
+* Lighthouse check
+
 ## Bugs
+Here is a list of the more problematic bugs that I encountered when building the Ultima Gym website.
+
+*
 
 ## Deployment
 
