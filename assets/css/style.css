@@ -11,7 +11,7 @@
 /*Styling for Body Elements Generally*/
 
 body {
-    font-family: PT Sans, sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-weight: 400;
     background-color: #ab9a99;
 }
@@ -433,7 +433,6 @@ below 900px width */
     .nav-bar li {
         float: left;
         text-align: center;
-        margin-right: none;
     }
 
     .welcome-message {
@@ -587,7 +586,6 @@ below 900px width */
 }
 
 .full-page button {
-    text-decoration-color: none;
     font-size: 170%;
     position: relative;
     background-color: #3d2e30;
