@@ -8,6 +8,8 @@ The website has an introduction stating the goals of Ultima Gym (helping people 
 
 All of this information is useful for anyone looking to sign up at a gym like Ultima Gym and it is all displayed on one page in clearly defined and easily navigable sections so the user will be able to easily find what information they want.
 
+<img src="README-pictures/am-i-responsive.png">
+
 ## Features
 
 * The Logo and Navigation Bar
@@ -19,18 +21,26 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
     * The Contact link is an internal link which takes you to the contact section of the website where the sign-up form, opening times table, prices table and telephone number can be found. It is found on the right of the navigation bar on larger screen sizes and below the Ultima Gym link on smaller screen sizes. Directly below the contact section is the footer with social media links to Facebook, Twitter and Instagram and a drop down summary showing the address of Ultima Gym.
     * The Logo and Navigation Bar has a background of dark grey and text in white for good color contrast. When a link is hovered over, it turns orange indicating it is clickable whilst still maintaining a contrast with the dark background.
 
+<img src="README-pictures/nav-bar.png">
+
 * The Hero Image and Welcome Message
     * The Hero Image and Welcome Message show an image of a man running on a treadmill and an orange background/ white text text container displaying the words "Welcome to a New Kind of Gym". 
     * The Hero Image has an animation play to slightly zoom in on the image to give the impression of movement which is fitting for a website about fitness.
     * The Welcome Message and the Hero Image are changed significantly on smaller screen sizes to not affect the layout of the website too much by taking up too much space. The welcome message is hidden at smaller screen sizes and the hero image eventually decreases in size on smaller screen sizes.
+
+<img src="README-pictures/hero-image.png">
 
 * The Our Mission Section
     * The Our Mission Section is split into two: a paragraph of text explaining the purpose of Ultima Gym and an image of a woman doing pushups. On larger screen sizes this displays as the paragraph being on the left hand side of the screen and the image being on the right hand side; on smaller screen sizes the display is block-style with the paragraph coming first and the then the image of the woman doing pushups below it.
     * This section is purely for introductory purposes for the user of the website.
     * The Heading of the paragraph is in dark grey to contrast with the orange background and the paragraph text is in white for the same reason. The image of the woman doing pushups is dark for contrast reasons and similarly all images on the website are dark for the same reasons.
 
+<img src="README-pictures/our-mission-section.png">
+
 * The Services Section Banner
     * The Services Section Banner introduces the Services Section of the website. It features an orange background and a heading in dark grey and underlined for contrast purposes and to inform the user of the section they are entering if they are scrolling through the website.
+
+<img src="README-pictures/services-bar.png">
 
 * The Our Facilities Section
     * The Our Facilities Section is similar to the Our Mission Section in layout on larger screen sizes except its image and paragraph sections are reversed so that there is room to 'breath' for both paragraphs and images on the webpage.
@@ -39,6 +49,8 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
     * The image section features an image of a barbell with weights on it and is again darkly colored for contrast purposes.
     * Next to the heading are featured Font Awesome icons in the text which display little pictures of dumbbells to further emphasise the section heading.
 
+<img src="README-pictures/our-facilities.png">
+
 * The Our Personal Training Team Section
     * The Our Personal Training Team Section is similar to the Our Mission and Our Facilities Sections in layout on larger screens but again switches the paragraph and images sections so has the same layout as the Our Mission Section.
     * The purpose of this section is to inform the user of the Personal Training Team at Ultima Gym.
@@ -46,10 +58,14 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
     * The image section shows an image of a woman pressing two dumbbells with a personal trainer assisting thus reinforcing the purpose of the section to the user.
     * Next to the heading are featured Font Awesome icons in the text which display little pictures of groups of people to further emphasise the section heading.
 
+<img src="README-pictures/our-personal-training-team.png">
+
 * The Contact Section Banner and the Contact Intro
     * The Contact Section Banner is similar to the Services Section Banner in its appearance except underneath it is the Contact Intro in this case.
     * The Contact Intro introduces the user to the Contact Section, displaying white text on an orange background and asking them to contact Ultima Gym either by phone or by completing the sign-up form below.
     * The Contact Section consists of three separate areas (Sign-up Form, Opening Times Table and Prices Table), for larger screen sizes they are arranged horizontally but for smaller screen sizes they are displayed vertically one after another so they fit the screen.
+
+<img src="README-pictures/contact-intro.png">
 
 * The Sign-up Form
     * The Sign-up Form consists of a form where the user can submit their details (First Name, Last Name, email address, optional phone number and a checkbox stating whether they are over 18 years old).
@@ -61,12 +77,16 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
     * The purpose of this section is to allow the user to know this information in an easily readable format.
     * The text of the tables is centered to make it more easily readable.
 
+<img src="README-pictures/contact-section.png">
+
 * The Footer, the Address and the Social Media Links
     * The Footer consists of four div elements on top of eachother displaying the address of Ultima Gym and links to Ultima Gym social media.
     * The purpose of this section is to allow the user to access Ultima Gym's social media.
     * It follows the same color scheme as the Logo and Navigation Bar and the clickable social media links turn orange when hovered over as well.
     * The Address can be clicked on to drop down to display Ultima Gym's Address. This drop-down means it only takes up space on the user's screen when they want it to.
     * The social media links have Font Awesome icons displaying the relevant social media icons which can be clicked on to take you to the relevant social media website.
+
+<img src="README-pictures/footer.png">
 
 * The Form Submission Page
     * The Form Submission Page is a very basic page using the color scheme from the main website. There is only one option here which is to click the highlighted and underlined link back to the main page.
