@@ -34,12 +34,14 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
 
 * The Our Facilities Section
     * The Our Facilities Section is similar to the Our Mission Section in layout on larger screen sizes except its image and paragraph sections are reversed so that there is room to 'breath' for both paragraphs and images on the webpage.
+    * The purpose of this section is to inform the user of the facilities that Ultima Gym has.
     * The paragraph section has the same colors as the Our Mission Section and features information on the facilities at Ultima Gym.
     * The image section features an image of a barbell with weights on it and is again darkly colored for contrast purposes.
     * Next to the heading are featured Font Awesome icons in the text which display little pictures of dumbbells to further emphasise the section heading.
 
 * The Our Personal Training Team Section
     * The Our Personal Training Team Section is similar to the Our Mission and Our Facilities Sections in layout on larger screens but again switches the paragraph and images sections so has the same layout as the Our Mission Section.
+    * The purpose of this section is to inform the user of the Personal Training Team at Ultima Gym.
     * Again the colors are the same as the Our Mission and Our Facilities Section for the same reasons.
     * The image section shows an image of a woman pressing two dumbbells with a personal trainer assisting thus reinforcing the purpose of the section to the user.
     * Next to the heading are featured Font Awesome icons in the text which display little pictures of groups of people to further emphasise the section heading.
@@ -56,10 +58,12 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
 
 * The Opening Times Table and the Prices Table
     * These tables make up the rest of the Contact Section and consist of two tables that display information on the opening times and prices of Ultima Gym.
+    * The purpose of this section is to allow the user to know this information in an easily readable format.
     * The text of the tables is centered to make it more easily readable.
 
 * The Footer, the Address and the Social Media Links
     * The Footer consists of four div elements on top of eachother displaying the address of Ultima Gym and links to Ultima Gym social media.
+    * The purpose of this section is to allow the user to access Ultima Gym's social media.
     * It follows the same color scheme as the Logo and Navigation Bar and the clickable social media links turn orange when hovered over as well.
     * The Address can be clicked on to drop down to display Ultima Gym's Address. This drop-down means it only takes up space on the user's screen when they want it to.
     * The social media links have Font Awesome icons displaying the relevant social media icons which can be clicked on to take you to the relevant social media website.
@@ -156,12 +160,35 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
     * I confirmed that it is possible to navigate from the form submission page back to the main page of the website.
 
 * Lighthouse check
+    * I confirmed that the Ultima Gym website passed the Lighthouse checks in DevTools.
 
 ## Bugs
 Here is a list of the more problematic bugs that I encountered when building the Ultima Gym website.
 
-*
+* CSS Validation
+    * Problem: When run through the CSS validator, the code had a feew errors. These errors were that some of my margin properties were set to 'none', which is not valid; also the font 'PT Sans' was not wrapped in quotation marks to make it obvious the two words representes one font-style.
+    * Fix: As the margin properties were having no effect on the website I removed them and wrapped the 'PT Sans' font in quotation marks.
+
+* Widths and Scrollbars
+    * Problem: Multiple times throughout the project, the width of the page exceeded 100% of the viewport width. Sometimes this was by a significant amount and sometimes only a pixel.
+    * Fix: This was probably the most diffiicult bug to fix as it kept on recurring throughout the project for different reasons. One bug was caused by differences in 100% width and 100vw widths in the CSS causing different widths and was fixed by standardising these widths to percentages. Another problem was caused by the border of the footer being 1px wide and causing the box model to exceed the viewport's width. This was fixed by reducing the overall width of the footer to allow the border to be active whilst not exceeding the page's width.
+
+* Grammar Errors
+    * Problem: When asking people to test my website to ensure it provided a good user experience, one noted that I had made a grammar error in one of my paragraphs. The text read: "We also have treadmills, stationary bikes, ellipticals, mountain climbers for and cardio."
+    * Fix: I fixed the text to: "We also have treadmills, stationary bikes, ellipticals and mountain climbers for cardio."
+
+* Unfixed Bugs
+    * I do not believe there are any unfixed bugs.
 
 ## Deployment
+The site was deployed on GitHub pages. Here are the steps I took to deploy the website:
+ 
+* Firstly, I went to my repository on GitHub for my website.
+* Secondly, I clicked on Settings.
+* Thirdly, I clicked on Pages in the sidebar.
+* Then, I selected the Main branch to publish
+* I then waited and a link to the main page was provided.
+
+The link to the published Ultima Gym website is here:  https://carlg96.github.io/ultima-gym/
 
 ## Credits
