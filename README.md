@@ -22,7 +22,7 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
 * The Hero Image and Welcome Message
     * The Hero Image and Welcome Message show an image of a man running on a treadmill and an orange background/ white text text container displaying the words "Welcome to a New Kind of Gym". 
     * The Hero Image has an animation play to slightly zoom in on the image to give the impression of movement which is fitting for a website about fitness.
-    * The Welcome Message and the Hero Image are changed significantly on smaller screen sizes to not affect the layout of the website too much by taking up too much space. The welcome message is hidden at smaller screen sizes and the eventually decreases in size on smaller screen sizes.
+    * The Welcome Message and the Hero Image are changed significantly on smaller screen sizes to not affect the layout of the website too much by taking up too much space. The welcome message is hidden at smaller screen sizes and the hero image eventually decreases in size on smaller screen sizes.
 
 * The Our Mission Section
     * The Our Mission Section is split into two: a paragraph of text explaining the purpose of Ultima Gym and an image of a woman doing pushups. On larger screen sizes this displays as the paragraph being on the left hand side of the screen and the image being on the right hand side; on smaller screen sizes the display is block-style with the paragraph coming first and the then the image of the woman doing pushups below it.
@@ -83,7 +83,7 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
 ## Typography and Color Scheme
 
 * Color Scheme
-    * The color scheme used in my website was designed to be contrasting and therefore accessible for the visually impaired. I generated multiple color schemes on the http://colormind.io/ website before deciding on one that fit the Ultima Gym website. Colormind is a deep learning tool which generates color schemes.
+    * The color scheme used in my website was designed to be contrasting and therefore accessible for the visually impaired. I generated multiple color schemes on the [Colormind](http://colormind.io/) website before deciding on one that fit the Ultima Gym website. Colormind is a deep learning tool which generates color schemes.
     * The hex values of the colors used in my website are: 
         *#ffffff for the white color
         *#f26e31 for the orange color
@@ -92,11 +92,11 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
     * These colors when contrasted look both clean and energetic; ideal for a website advertising a gym.
 
 * Font Pairings
-    * During research for the website, I read the article at https://www.pagecloud.com/blog/best-google-fonts-pairings and decided to use the pairing of PT Sans for paragraph text and Nunito as heading text as I thought the combination looked clean and modern.
-    * These fonts were taken from https://fonts.google.com/ .
+    * During research for the website, I read the article at [Pagecloud](https://www.pagecloud.com/blog/best-google-fonts-pairings) and decided to use the pairing of PT Sans for paragraph text and Nunito as heading text as I thought the combination looked clean and modern.
+    * These fonts were taken from [Google Fonts](https://fonts.google.com/).
 
 * Font Awesome Icons
-    * For the Our Services, Our Personal Training Team and the social media links icons were taken from https://fontawesome.com/ .
+    * For the Our Services, Our Personal Training Team and the social media links icons were taken from [Font Awesome](https://fontawesome.com/).
 
 ## Wireframes and Prototypes
 * Balsamiq Wireframes
@@ -133,11 +133,9 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
 ## Testing
 
 * HTML Validator
-    * https://validator.w3.org/
     * When passed through the W3C HTML validator no errors or warnings were found.
 
 * CSS Validator
-    * https://jigsaw.w3.org/css-validator/
     * When passed through the W3C CSS validator no errors found (1 warning given from the imported style sheet but this is something the validator does not check).
 
 * Search Engines
@@ -189,6 +187,23 @@ The site was deployed on GitHub pages. Here are the steps I took to deploy the w
 * Then, I selected the Main branch to publish
 * I then waited and a link to the main page was provided.
 
-The link to the published Ultima Gym website is here:  https://carlg96.github.io/ultima-gym/
+The link to the published Ultima Gym website is here:  [Ultima Gym](https://carlg96.github.io/ultima-gym/)
 
 ## Credits
+
+* Content
+    * The code for the animation on the hero image is taken almost exactly from the Code Institute Love Running Walkthrough Project.
+    * The code for the navigation bar is heavily based on the code for the navigation bar from the Code Institute Love Running Walthrough Project. However there are significant deviations such as the choice to make it fixed to the user's viewport when scrolling.
+    * The font-families I used were from [Google Fonts](https://fonts.google.com/)
+    * The article I read which helped inform my design about which font-family to use was from here: [Pagecloud](https://www.pagecloud.com/blog/best-google-fonts-pairings)
+    * I used [Colormind](http://colormind.io/) to generate colors for my website.
+    * I used this [HTML Validator](https://validator.w3.org/) and this [CSS Validator](https://jigsaw.w3.org/css-validator/) to validate my HTML and CSS code.
+
+* Media
+    * Here are a list of links to the images that I used for the Ultima Gym website. All of them were open source and from Pexels.
+        * [Hero Image of a Man on a Treadmill](https://www.pexels.com/photo/an-on-treadmill-1954524/)
+        * [Image of a Woman Doing Pushups](https://www.pexels.com/photo/woman-doing-push-ups-2780762/)
+        * [Image of a Woman Dumbell Pressing With a Personal Trainer](https://www.pexels.com/photo/action-active-adult-body-416754/)
+        * [Image of weights](https://www.pexels.com/photo/grayscale-photo-of-black-adjustable-dumbbell-949131/)
+    * I used icons from here: [Font Awesome](https://fontawesome.com/)
+
