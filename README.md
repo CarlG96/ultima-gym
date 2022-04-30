@@ -92,6 +92,8 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
     * The Form Submission Page is a very basic page using the color scheme from the main website. There is only one option here which is to click the highlighted and underlined link back to the main page.
     * The purpose of this page is to make sure that the user knows they have submitted their information to Ultima Gym.
 
+<img src="README-pictures/form-submission-page.png">
+
 ## Future Features
 
 * Resizable Images
@@ -121,6 +123,10 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
 ## Wireframes and Prototypes
 * Balsamiq Wireframes
     * Throughout the design stage of the Ultima Gym webpage, Balsamiq Wireframes was used to sketch out a basic idea. The idea changed slightly in the final product but for the most part retains alot of the design.
+    
+<img src="README-pictures/balsamiq-wireframe-one.png">
+<img src="README-pictures/balsamiq-wireframe-two.png">
+<img src="README-pictures/balsamiq-wireframe-three.png">
 
 ## Technology Used
 * HTML
@@ -179,6 +185,8 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
 
 * Lighthouse check
     * I confirmed that the Ultima Gym website passed the Lighthouse checks in DevTools.
+
+<img src="README-pictures/lighthouse-score.png">
 
 ## Bugs
 Here is a list of the more problematic bugs that I encountered when building the Ultima Gym website.
