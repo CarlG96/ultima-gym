@@ -61,7 +61,7 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
 <img src="README-pictures/our-personal-training-team.png">
 
 * The Contact Section Banner and the Contact Intro
-    * The Contact Section Banner is similar to the Services Section Banner in its appearance except underneath it is the Contact Intro in this case.
+    * The Contact Section Banner is similar to the Services Section Banner in its appearance except underneath it is the Contact Intro.
     * The Contact Intro introduces the user to the Contact Section, displaying white text on an orange background and asking them to contact Ultima Gym either by phone or by completing the sign-up form below.
     * The Contact Section consists of three separate areas (Sign-up Form, Opening Times Table and Prices Table), for larger screen sizes they are arranged horizontally but for smaller screen sizes they are displayed vertically one after another so they fit the screen.
 
@@ -97,7 +97,7 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
 ## Future Features
 
 * Resizable Images
-    * I would like to make a feature where the images more resizable depending on screen size.
+    * I would like to make a feature where the images are more resizable depending on screen size.
 
 * Change to Logo and Navigation Bars
     * I would like a feature where on small screen sizes the Logo is replaced by a symbol and the navigation bar is replaced with a drop down menu making it easier for mobile users.
@@ -105,12 +105,12 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
 ## Typography and Color Scheme
 
 * Color Scheme
-    * The color scheme used in my website was designed to be contrasting and therefore accessible for the visually impaired. I generated multiple color schemes on the [Colormind](http://colormind.io/) website before deciding on one that fit the Ultima Gym website. Colormind is a deep learning tool which generates color schemes.
+    * The color scheme used in my website was designed to have good contrast and therefore be accessible for the visually impaired. I generated multiple color schemes on the [Colormind](http://colormind.io/) website before deciding on one that fit the Ultima Gym website. Colormind is a deep learning tool which generates color schemes.
     * The hex values of the colors used in my website are: 
-        *#ffffff for the white color
-        *#f26e31 for the orange color
-        *#ab9a99 for the light grey background color
-        *#3d2e30 for the dark grey color
+        * #ffffff for the white color
+        * #f26e31 for the orange color
+        * #ab9a99 for the light grey background color
+        * #3d2e30 for the dark grey color
     * These colors when contrasted look both clean and energetic; ideal for a website advertising a gym.
 
 * Font Pairings
@@ -133,7 +133,7 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
     * Used to build the structure of the website.
 
 * CSS
-    * Used to style the website and change depending on screen sizes with media queries.
+    * Used to style the website and change the website depending on screen sizes with media queries.
 
 * Balsamiq Wireframes
     * Used for prototyping and sketching out the website.
@@ -148,10 +148,10 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
     * Used to style the fonts of the website.
 
 * Pexels
-    * Used for images on website.
+    * Used for images on the website.
 
 * GitHub
-    * Used for repository and deployment of website.
+    * Used for the repository and deployment of website.
 
 * Gitpod 
     * Used for development of the website.
@@ -162,18 +162,18 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
     * When passed through the W3C HTML validator no errors or warnings were found.
 
 * CSS Validator
-    * When passed through the W3C CSS validator no errors found (1 warning given from the imported style sheet but this is something the validator does not check).
+    * When passed through the W3C CSS validator no errors were found (1 warning given from the imported style sheet but this is something the validator does not check).
 
 * Search Engines
-    * Ultima Gym website has full functionality and works well in the Google Chrome web browser.
-    * Ultima Gym website has full functionality and works well in the Brave web browser.
-    * Ultima Gym website has full functionality and works well in the Firefox web browser.
+    * The Ultima Gym website has full functionality and works well in the Google Chrome web browser.
+    * The Ultima Gym website has full functionality and works well in the Brave web browser.
+    * The Ultima Gym website has full functionality and works well in the Firefox web browser.
 
 * Screen Sizes
-    * Ultima Gym website fully functional with no obvious visual glitches on iPhone SE simulated in DevTools.
-    * Ultima Gym website fully functional with not obvious visual glitches on Samsung Galaxy S20 Ultra simulated in DevTools.
-    * Ultima Gym website fully functional on 1920x1080 monitor with no visual glitches.
-    * Ultima Gym website fully functional with no obvious visual glitches on Nest Hub simulated in DevTools.
+    * The Ultima Gym website fully functional with no obvious visual glitches on iPhone SE simulated in DevTools.
+    * The Ultima Gym website fully functional with not obvious visual glitches on Samsung Galaxy S20 Ultra simulated in DevTools.
+    * The Ultima Gym website fully functional on 1920x1080 monitor with no visual glitches.
+    * The Ultima Gym website fully functional with no obvious visual glitches on Nest Hub simulated in DevTools.
 
 * Text Contrast
     * I confirmed (and got others to confirm) that the text is legible and understandable across the website.
@@ -192,7 +192,7 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
 Here is a list of the more problematic bugs that I encountered when building the Ultima Gym website.
 
 * CSS Validation
-    * Problem: When run through the CSS validator, the code had a feew errors. These errors were that some of my margin properties were set to 'none', which is not valid; also the font 'PT Sans' was not wrapped in quotation marks to make it obvious the two words representes one font-style.
+    * Problem: When run through the CSS validator, the code had a few errors. These errors were that some of my margin properties were set to 'none', which is not valid; also the font 'PT Sans' was not wrapped in quotation marks to make it obvious the two words represent one font-style.
     * Fix: As the margin properties were having no effect on the website I removed them and wrapped the 'PT Sans' font in quotation marks.
 
 * Widths and Scrollbars
@@ -212,7 +212,7 @@ The site was deployed on GitHub pages. Here are the steps I took to deploy the w
 * Firstly, I went to my repository on GitHub for my website.
 * Secondly, I clicked on Settings.
 * Thirdly, I clicked on Pages in the sidebar.
-* Then, I selected the Main branch to publish
+* Then, I selected the Main branch to publish.
 * I then waited and a link to the main page was provided.
 
 The link to the published Ultima Gym website is here:  [Ultima Gym](https://carlg96.github.io/ultima-gym/)
