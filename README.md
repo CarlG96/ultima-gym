@@ -171,7 +171,7 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
 
 * Screen Sizes
     * The Ultima Gym website fully functional with no obvious visual glitches on iPhone SE simulated in DevTools.
-    * The Ultima Gym website fully functional with not obvious visual glitches on Samsung Galaxy S20 Ultra simulated in DevTools.
+    * The Ultima Gym website fully functional with no obvious visual glitches on Samsung Galaxy S20 Ultra simulated in DevTools.
     * The Ultima Gym website fully functional on 1920x1080 monitor with no visual glitches.
     * The Ultima Gym website fully functional with no obvious visual glitches on Nest Hub simulated in DevTools.
 
@@ -187,6 +187,51 @@ All of this information is useful for anyone looking to sign up at a gym like Ul
     * I confirmed that the Ultima Gym website passed the Lighthouse checks in DevTools.
 
 <img src="README-pictures/lighthouse-score.png">
+
+## Test Cases
+In this section, I discuss what output should be associated with what input when a user accesses Ultima Gym Website.
+
+* Logo
+    * Input: The user clicks the Ultima Gym Logo in the Logo and Navigation Bar.
+    * Output: The webpage is refreshed. The Hero Image animation resets. The user is taken back to the top of the page.
+
+* Home
+    * Input: The user clicks the Home link in the Logo and Navigation Bar.
+    * Output: The user is taken back to the top of the webpage. If the user is currently at the top of the webpage nothing will happen.
+
+* Services
+    * Input: The user clicks the Services link in the Logo and Navigation Bar.
+    * Output: The user is taken to the Services Section of the webpage.
+
+* Contact
+    * Input: The user clicks the Contact link in the Logo and Navigation Bar.
+    * Output: The user is taken to the Contact Section of the webpage.
+
+* Signup Section
+    * Input: The user enters their First Name in the First Name section and clicks the Sign Up! button.
+    * Output: The webpage will ask them to fill in the other mandatory sections of the Sign-up Form.
+    * Input: The user enters their Last Name in the Last Name section and clicks the Sign Up! button.
+    * Output: The webpage will ask them to fill in the other mandatory sections of the Sign-up Form.
+    * Input: The user enters their Email Address in the Email Address section and clicks the Sign Up! button.
+    * Output: The webpage will ask them to fill in the other mandatory sections of the Sign-up Form.
+    * Input: The user checks the 'Please confirm you are over 18 years of age' checkbox in the Sign-Up Form.
+    * Output: The webpage will ask them to fill in the other mandatory sections of the Sign-up Form.
+    * Input: The user enters their Phone Number into the Phone Number (optional) section of the Sign-Up Form and clicks the Sign Up! button.
+    * Output: As this is optional, the webpage will ask them to fill in the other mandatory sections of the Sign-up Form.
+    * Input: The user fills in all the mandatory sections of the Sign-up Form and clicks the Sign Up! button.
+    * Output: The user will be take to the form-submission.html webpage.
+
+* Form Submission Page
+    * Input: The user clicks the text marked 'Click Here to Return to the Main Page'.
+    * Output: The user is returned to index.html.
+
+* Address Dropdown
+    * Input: The user clicks on the part of the footer titled 'Address'.
+    * Output: A drop down showing the address of Ultima Gym appears below the 'Address' section and above the Social Media links.
+
+* Social Media Links
+    * Input: The user clicks on the icons for the Social Media links in the footer.
+    * Output: The user is taken to the website corresponding to the icon clicked on.
 
 ## Bugs
 Here is a list of the more problematic bugs that I encountered when building the Ultima Gym website.
