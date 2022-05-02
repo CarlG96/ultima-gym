@@ -252,6 +252,16 @@ Here is a list of the more problematic bugs that I encountered when building the
     * I do not believe there are any unfixed bugs.
 
 ## Deployment
+
+### Gitpod
+This site was temporarily deployed for testing purpose in Gitpod Workspaces. Here are the steps I took to deploy the website:
+
+* Firstly, I opened up Gitpod Workspaces.
+* Secondly, I opened the Ultima Gym Workspace.
+* Thirdly, I typed 'python3 -m http.server' into the bash terminal.
+* Finally, I opened the link to open up the Ultima Gym webpage in a new tab.
+
+### GitHub
 The site was deployed on GitHub pages. Here are the steps I took to deploy the website:
  
 * Firstly, I went to my repository on GitHub for my website.
